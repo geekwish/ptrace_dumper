@@ -1,4 +1,4 @@
-/* convert odex to dex
+/* Use ptrace syscall to dump memory from another process.
  * Copyright (C) 2014  吴潍浠
  *
  * This program is free software: you can redistribute it and/or modify
