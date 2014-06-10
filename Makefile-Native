@@ -1,0 +1,10 @@
+CC=gcc
+TARGET=ptrace_dumper
+
+$(TARGET):ptrace_dumper.o
+	$(CC) -g -Wall $^ -o $@
+%.o:%.c
+	$(CC) -g -Wall -c $^ -o $@
+
+clean:
+	rm $(TARGET) *.o
